@@ -1,0 +1,190 @@
+:root
+{
+  --red:   #c71318;
+  --secondary: #006699;
+  --third :    #2196F3;
+  --grey :     #CCC;
+
+}
+*
+{
+  font-family: "Roboto", sans-serif;
+}
+body
+{
+  background-color: #EEE;
+}
+h1
+{
+  /*
+  font-family: 'Share Tech', sans-serif;
+  font-family: 'Short Stack', cursive;
+  font-family: 'Gruppo', cursive;
+
+  font-family: 'Rampart One', cursive;
+
+  */
+  color:var(--secondary);
+  font-family: 'Audiowide', cursive;
+
+
+
+}
+
+
+h2
+{
+  color: var(--blue-4);
+  font-weight: bold;
+}
+
+h3
+{
+  font-size: 28px;
+}
+h4
+{
+  font-size: 16px;
+}
+
+a
+{
+  text-decoration: none;
+}
+p
+{
+  color: #222;
+}
+
+.fas, .fa
+{
+  color: var(--secondary);
+}
+
+.w3-tag
+{
+  background-color: #70b5f9;/*#a8d4ff;*/
+}
+
+/* logos */
+.booki
+{
+  font-family: 'Rancho', cursive;
+  color: var(--blueBooki);
+}
+
+.ohmyfood
+{
+  font-family: 'Shrikhand', cursive;
+
+  background: -webkit-linear-gradient( #99E2D0, #9356DC, #FF79DA, #99E2D0, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lachouetteagence
+{
+  font-family: 'Underdog', cursive;
+  background: -webkit-linear-gradient( yellow, red, red,#f3976c, orange, yellow, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.orinoco
+{
+  background-image: linear-gradient(120deg, orange ,orange , pink, pink,purple);
+  font-family: Chalkduster, fantasy;
+/*  background: -webkit-linear-gradient( 120deg, orange ,orange , pink, pink,purple);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.piiquante
+{
+  font-family: 'Playfair Display', serif;
+  color: #c71318;
+  font-weight: bold;
+}
+
+.groupomania
+{
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.openclassrooms
+{
+  color: #7451eb;
+  font-weight:  900;
+}
+
+.w3-card
+{
+  border-radius: 15px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+article  .w3-card
+{
+  background-image: linear-gradient(150deg, white, white, var(--blue-1));
+}
+
+.hr
+{
+  background: -webkit-linear-gradient( #99E2D0, #9356DC, #FF79DA, #99E2D0, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
+/* aside */
+
+aside
+{
+  border-top-right-radius: 15px;
+  background-color: white;
+}
+aside
+{
+  margin-top: 16px;
+}
+aside article .w3-card
+{
+  margin-top: 8px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+
+  background-image: linear-gradient(360deg , #cceeff, white);
+}
+
+aside  .w3-card
+{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 15px;
+
+
+  background-image: linear-gradient(360deg ,  var(--blue-light), white);
+}
+aside .card
+{
+  margin-top: 8px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  background-image: linear-gradient(360deg , var(--blue-light), white);
+}
+
+/* footer */
+
+footer
+{
+    background-color: var(--blue-4);
+}
+footer h2
+{
+  /*color:var(--red);*/
+  background: -webkit-linear-gradient( var(--red),var(--red),var(--red),var(--red), white,var(--blue-3),var(--blue-3),var(--blue-3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-family: 'Audiowide', cursive;
+}
