@@ -64,6 +64,12 @@ p
 .w3-tag
 {
   background-color: #70b5f9;/*#a8d4ff;*/
+  padding-top:1.5px;
+  padding-bottom:1.5px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  margin-top: 1.5px;
+  margin-bottom: 1.5px;
 }
 
 /* logos */
